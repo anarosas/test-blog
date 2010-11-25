@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Edit Blog Home</title>
+
+</head>
+<body>
+Welcome!
+
+<% @posts.each do |post| %>
+    <h1><%=h post.title %></h1>
+    <p><%=h post.body%></p><br />
+<% end %>
+
+
+
+</body>
+</html>
